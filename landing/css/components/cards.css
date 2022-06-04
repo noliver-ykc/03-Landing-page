@@ -1,0 +1,106 @@
+/* Your card CSS file */
+
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+
+.container {
+  position: relative;
+  font-family: 'Joan', serif;
+  display: flex;
+  flex-direction: column;
+  cursor: url(redvelvetlogo.cur), pointer;
+}
+
+.card {
+  margin-top: 50px;
+}
+.card-category {
+  height: 500px;
+  width: 100vw;
+  background-image: linear-gradient(135deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.2) 50%), url('https://asset.onemusic.ph/assetsonemusicph/media/articles/1566293890_3d751619-34ba-4d6f-8b46-96eb30e65588.jpeg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0,0,0, 0.25);
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  cursor: url(components/redvelvetlogo.cur), auto;
+  margin-bottom: 50px;
+}
+.card-category > h1 {
+  font-family: 'Joan', serif;
+  font-size: 40px;
+}
+
+.card-product-img {
+  height: 200px;
+}
+
+.card-product {
+  margin: 0 auto;
+  width: 600px;
+  height: 200px;
+  background-color: white;
+  border: .5px solid black;
+  display: flex;
+  box-shadow: rgba(186, 140, 178, 0.5) 0px 15px 29px 0px;
+}
+
+.card-left {
+  color: black;
+  padding-left: 10px;
+  overflow: auto;
+  font-style: oblique;
+}
+
+.card-trip {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  background-color: pink;
+  box-shadow: rgba(186, 140, 178, 0.5) 0px 15px 29px 0px;
+  cursor: url(components/redvelvetlogo.cur), pointer;
+}
+
+.seulgi-light {
+  width: inherit;
+  height: 75%;
+}
+
+.seulgi-dark {
+  height: 20%;
+  position: absolute;
+  right: 30px;
+  bottom: 60px;
+  border-radius: 50%;
+  border: 3px solid pink;
+}
+
+.bottom-half {
+  padding-left: 10px;
+  width: inherit;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:  rgb(245, 221, 225);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(136, 187, 245); 
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

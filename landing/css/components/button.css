@@ -1,0 +1,35 @@
+/* Your button CSS file */
+.btn-red {
+  background-color: rgb(249, 249, 249);
+  padding: 10px 20px;
+  border: 3px solid #b42f45;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #b42f45;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.btn-red:hover {
+  background-color: #b42f45;
+  color: white;
+  transition-duration: 0.4s;
+  display: inline-block;
+}
+
+.btn-velvet {
+  background-color: #b42f45;;
+  padding: 10px 20px;
+  border: 3px solid #b42f45;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+.btn-velvet:hover {
+  background-color: rgb(249, 249, 249);
+  color: #b42f45;
+  transition-duration: 0.4s;
+  display: inline-block;
+}

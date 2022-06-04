@@ -1,0 +1,44 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Importing all components file */
+@import url("components/button.css");
+@import url("components/cards.css");
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  cursor: url(components/redvelvetlogo.cur), auto;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.members {
+  border-radius: 50%;
+  height: 100px;
+  margin-left: 10px;
+  margin-left: 10%;
+  transition: transform 1s ease-in-out;
+  margin-top: 50px;
+}
+
+.members:hover {
+  transform: rotate(360deg)
+}
+
+footer {
+  text-align: center;
+}
